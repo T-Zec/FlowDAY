@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTheme } from "../contexts/ThemeContext";
+import logo from "../assets/logo.png";
+import brandNameLight from "../assets/favicon.png";
+import brandNameDark from "../assets/favicon_2.png";
 
 export default function Header() {
     const { theme, toggleTheme } = useTheme();
@@ -11,9 +14,9 @@ export default function Header() {
                 <div className='header-bar'>
                     {/* Left Header */}
                     <div className='brand header-left'>
-                        <img src='src/assets/logo.png' alt="App logo" className='brand-logo' />
-                        <img src={"src/assets/favicon.png"} alt="FlowDAY" className='brand-name brand-name-light' />
-                        <img src={"src/assets/favicon_2.png"} alt="FlowDAY" className='brand-name brand-name-dark' />
+                        <img src={logo} alt="App logo" className='brand-logo' />
+                        <img src={brandNameLight} alt="FlowDAY" className='brand-name brand-name-light' />
+                        <img src={brandNameDark} alt="FlowDAY" className='brand-name brand-name-dark' />
                     </div>
                     {/* Right Header */}
                     <div className='header-right'>
