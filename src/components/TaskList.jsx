@@ -3,17 +3,7 @@ import { useTasks } from "../contexts/TaskContext";
 import TaskItem from "./TaskItem";
 
 export default function TaskList() {
-    const { tasks } = useTasks();
-
-    if (tasks.length === 0) {
-        return (
-            <div className="empty-state">
-                <p>No tasks yet.</p>
-                <small>Add somethings you want to get done today 👆</small>
-            </div>
-        );
-    }
-
+    const { tasks } = useTasks();    
     return (
         <div className="task-list">
             {tasks.map((task) => (
