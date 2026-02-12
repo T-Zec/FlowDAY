@@ -1,16 +1,90 @@
-# React + Vite
+# FlowDAY
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FlowDAY is a responsive task management web application built with React. It focuses on simplicity, usability, and clean architecture while providing essential productivity features such as due date tracking, smart filtering, and theme switching.
 
-Currently, two official plugins are available:
+### Live Demo
+https://flowday-task-manager.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Repository
+https://github.com/T-Zec/FlowDAY
 
-## React Compiler
+## Overview
+FlowDAY allows users to manage daily tasks efficiently with a clean and minimal interface. The application is designed with performance, scalability, and mobile responsiveness in mind.
+It demonstrates structured component architecture, centralized state management, persistent storage handling, and production deployment.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
+- Add, edit, and delete tasks
+- Due date assignment
+- Smart "Today" filtering
+- Overdue task detection
+- Search functionality
+- Sorting logic
+- Dark / Light theme support
+- Persistent state using LocalStorage
+- Fully responsive design
+- SPA routing with proper deployment configuration
 
-## Expanding the ESLint configuration
+## Tech Stack
+### Frontend:
+- React (Vite)
+- React Router
+- Context API
+- Custom Hooks
+- CSS with theme variables
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deployment:
+- Vercel
+
+## Design:
+- Logo and brand identity created using CorelDRAW
+
+## Project Structure
+```
+src/
+  components/
+  contexts/
+  hooks/
+  pages/
+  styles/
+  utils/
+public/
+```
+The project follows a modular structure with separation of concerns between UI components, state management, utilities, and layout.
+
+## ⚙️ Running Locally
+Clone the repository:
+```
+git clone https://github.com/your-username/FlowDAY.git
+cd FlowDAY
+npm install
+npm run dev
+```
+
+## Installation & Setup for production
+Clone the repository:
+`git clone https://github.com/your-username/FlowDAY.git
+cd FlowDAY`
+
+Install dependencies:
+`npm install`
+
+Run development server:
+`npm run dev`
+
+Build for production:
+`npm run build`
+
+## Deployment
+The application is deployed on Vercel.
+For SPA routing support, a vercel.json configuration is included to handle route rewrites correctly.
+
+## What This Project Demonstrates
+- Scalable component-based architecture
+- Clean global state management with Context API
+- Client-side routing with production configuration
+- Responsive and accessible UI design
+- Theme management with persistent settings
+- Real-world deployment workflow
+
+## 📄 License
+This project is for learning and portfolio purposes.
