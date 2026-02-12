@@ -32,7 +32,7 @@ It demonstrates structured component architecture, centralized state management,
 - Custom Hooks
 - CSS with theme variables
 
-## Deployment:
+## 📤 Deployment:
 - Vercel
 
 ## 🎨 Design:
@@ -62,17 +62,16 @@ npm run dev
 
 ## ⚙ Installation & Setup for production
 Clone the repository:
-`git clone https://github.com/your-username/FlowDAY.git
-cd FlowDAY`
-
+```
+git clone https://github.com/your-username/FlowDAY.git
+cd FlowDAY
+```
 Install dependencies:
-`npm install`
-
+```npm install```
 Run development server:
-`npm run dev`
-
+```npm run dev```
 Build for production:
-`npm run build`
+```npm run build```
 
 ## 🌐 Deployment
 The application is deployed on Vercel.
