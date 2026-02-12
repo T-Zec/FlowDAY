@@ -54,7 +54,7 @@ The project follows a modular structure with separation of concerns between UI c
 ## ⚙️ Running Locally
 Clone the repository:
 ```
-git clone https://github.com/your-username/FlowDAY.git
+git clone https://github.com/T-Zec/FlowDAY/
 cd FlowDAY
 npm install
 npm run dev
@@ -63,7 +63,7 @@ npm run dev
 ## ⚙ Installation & Setup for production
 Clone the repository:
 ```
-git clone https://github.com/your-username/FlowDAY.git
+git clone https://github.com/T-Zec/FlowDAY/
 cd FlowDAY
 ```
 Install dependencies:
